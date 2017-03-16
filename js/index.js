@@ -1,3 +1,4 @@
+windoww.onload = function(){
   var vm =  new Vue({
     el: "#baidu",
     data:{
@@ -61,3 +62,4 @@
         oList.style.display = 'block';
     }
   })
+}
