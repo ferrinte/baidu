@@ -1,4 +1,4 @@
-windoww.onload = function(){
+window.onload = function(){
   var vm =  new Vue({
     el: "#baidu",
     data:{
