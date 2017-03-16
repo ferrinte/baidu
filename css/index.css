@@ -1,0 +1,88 @@
+body,ul,ol,li,div,span,input,img,p{margin:0; padding:0;}
+li{list-style:none; }
+img{vertical-align: center;}
+a{text-decoration: none;}
+
+#baidu{
+  width:100%; 
+  margin:60px auto; 
+  position:relative;
+  text-align: center;
+}
+.search{
+  position:absolute; 
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 639px;
+  height: 300px;
+}
+.text{
+  width:539px; 
+  height:34px; 
+  font:16px/18px arial;
+  border: 1px solid #3385ff;
+  outline: 0;
+  float: left;
+  text-indent: 8px;
+}
+.text-blur{
+  border: 1px solid #ccc;
+}
+.submit{
+  width:100px; 
+  height:36px; 
+  background:#3385ff; 
+  border:none; 
+  position:absolute; 
+  left:545px; 
+  color:#FFF; 
+  font:400 14px/36px 'arial'; 
+  cursor:pointer; 
+  margin-left: -5px;
+  box-shadow: 1px 1px 1px #ccc;
+  float: left;
+}
+.submit:hover{
+  opacity: 0.9;
+}
+.soutu-icon{ 
+  position:absolute; 
+  right:110px; 
+  top:10px; 
+  cursor:pointer;
+  background-image: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/soutu/img/camera_new_5606e8f.png);
+  background-position: 0 0;
+  width: 18px;
+  height: 16px;
+/*   transition: 0.3s; */
+}
+.soutu-icon:hover{
+    background-position: 0 18px;
+}
+.search ul{
+  width: 100%;
+  border: 1px solid #ccc;
+  text-align: left;
+  box-sizing: border-box;
+  margin-top: 35px;
+  display: none; 
+}
+.search ul li{
+  cursor: pointer;
+  padding-left: 10px;
+  line-height: 28px;
+  color: #333;
+  font-size: 15px;
+}
+.gray{background-color: #f1f1f1;}
+/* 
+li{float:left;}
+footer{ position:absolute; top:440px;}
+.left{float:left; margin-right:20px; }
+.right{float:right; margin-left:30px;}
+.left li{height:50px;text-align:center; vertical-align:central;  color:#999; font-size:12px; margin-right:10px; margin-top:6px;}
+.left li p{padding:3px; margin:6px 0;}
+.left li b{color:#666;}
+.right li{font-size:12px; color:#999; letter-spacing:0.1px; padding:5px; margin-right:5px; text-decoration:underline;} 
+*/
